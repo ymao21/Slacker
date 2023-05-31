@@ -1,0 +1,98 @@
+.main-chat-input{
+    width:100%;
+    border: 2px solid #414141;
+    border-radius: 10px;
+    background-color: #222529;
+    height: fit-content;
+    padding: 5px;
+}
+.RichEditor-controls{
+    margin-bottom:auto;cursor: text;
+    width:100%;
+}
+.RichEditor-styleButton:hover{
+    background-color: #414141;
+    color: #D1D2D3;
+
+}
+.RichEditor-styleButton{
+    display: inline-block;
+    padding: 2px 0px;
+    margin-right: 16px;
+    font-size: 14px;
+    cursor: pointer;
+
+    border-radius: 5px;
+    background-color: #222529;
+    width: 20px;
+    text-align: center;
+    justify-content: center;
+    color: #D1D2D3;
+}
+.RichEditor-activeButton{
+    background-color: #414141;
+    color: #D1D2D3;
+}
+.main-chat-input-controls{
+    height:25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #414141;
+}
+.chat-mention{
+    position: relative;
+    top:0px;
+    background-color: #222529;
+    border: 1px solid #414141;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 0px 5px;
+    z-index: -1;
+}
+.chat-people{
+    position:absolute;
+    border: 1px solid #414141;
+    padding: 2px 10px;
+    transform: translateX(-25%);
+}
+.chat-people li{
+    list-style: none;
+    cursor: pointer;
+}
+.chat-people li:hover{
+    background-color: #414141;
+    color: #D1D2D3;
+}
+.main-chat-input-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    height:35px;
+}
+.main-chat-input-text{
+    margin-top: 10px;
+    padding-left: 2px;
+    font-size: 13px;
+    max-height: 50vh;
+    min-height: 100px;
+
+    overflow-y: auto;
+}
+/*set the scroll bar color*/
+.main-chat-input-text::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+    background-color: #1A1D21;
+}
+.main-chat-input-text::-webkit-scrollbar-thumb {
+    background-color: #414141;
+    border-radius: 10px;
+}
+.main-chat-input-text:focus{
+    outline: none;
+}
+
+
