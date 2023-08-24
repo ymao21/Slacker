@@ -4,7 +4,7 @@ Slacker is a Python and React project meant to emulate core functionality of the
 
 ### Building The Application
 
-    pip install -r requirements.txt
+    pip install -r requirements.txt   
     pip install psycopg2
     flask db upgrade
     flask seed all
