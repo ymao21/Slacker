@@ -1,7 +1,7 @@
 
-Slacker is a Python and React project meant to emulate core functionality of the popular messaging app Slack
+Slacker is a Python and React project meant to emulate the core functionality of the popular messaging app Slack
 
-### Building The Application
+### Building The Application 
 
     pip install -r requirements.txt   
     pip install psycopg2
