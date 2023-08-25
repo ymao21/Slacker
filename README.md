@@ -10,10 +10,10 @@ Slacker is a Python and React project meant to emulate the core functionality of
     npm install --prefix react-app
     npm run build --prefix react-app
 
-After a successful build the application can then be ran using gunicorn
+After a successful build the application can then be ran using Gunicorn
 
     gunicorn --worker-class eventlet -w 1 --bind 0.0.0.0:5000 app:app
-To remove all messages, channels, dms and reset back to initial DB state run:
+To remove all messages, channels, DMS and reset back to the initial DB state run:
 
     flask seed undo
 
