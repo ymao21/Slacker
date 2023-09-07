@@ -7,7 +7,7 @@ Slacker is a Python and React project meant to emulate the core functionality of
     pip install psycopg2 
     flask db upgrade
     flask seed all
-    npm install --prefix react-app
+    npm install --prefix react-app 
     npm run build --prefix react-app
 
 After a successful build the application can then be ran using Gunicorn
