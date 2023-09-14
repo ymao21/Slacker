@@ -1,5 +1,5 @@
 
-Slacker is a Python and React project meant to emulate the core functionality of the popular messaging app Slack
+Sluck is a Python and React project meant to emulate the core functionality of the popular messaging app Slack
  
 ### Building The Application  
 
