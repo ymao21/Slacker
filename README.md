@@ -4,7 +4,7 @@ Sluck is a Python and React project meant to emulate the core functionality of t
 ### Building The Application  
 
     pip install -r requirements.txt   
-    pip install psycopg2 
+    pip install psycopg2  
     flask db upgrade
     flask seed all 
     npm install --prefix react-app 
