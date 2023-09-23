@@ -52,12 +52,12 @@
   user-select: none;
 }
 .login-button:hover{
-  background-color: #511151;
+  background-color: #390099;
   border: 1px solid #003566;
   color: #ffffff;
 }
 .register-button:hover{
-  background-color: #511151;
+  background-color: #390099;
   border: 1px solid #003566;
   color: #ffffff;
 }
@@ -94,7 +94,7 @@
   user-select: none;
 }
 .demo-user-button:hover{
-  background-color: #511151;
+  background-color: #390099;
   border: 1px solid #003566;
   color: #ffffff;
 }
