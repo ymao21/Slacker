@@ -1,7 +1,6 @@
 
 
-Slacker is a Python and React project meant to emulate core functionality of the popular messaging app, [Slack](http://slack.com). Created with group member [Brandon Etter](https://github.com/brandonetter)
-
+Slacker is a Python and React project meant to emulate core functionality of the popular messaging app
 
 
 ### Building The Application

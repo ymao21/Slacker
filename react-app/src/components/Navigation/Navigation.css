@@ -9,7 +9,7 @@
   padding-left: 20px;
   padding-right: 20px;
   margin: 0;
-  background-color: #400d40;
+  background-color: #0077b6;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,15 +22,15 @@
   justify-content: center;
   height: 90px;
   width: 90px;
-  margin-right: 10px;
 }
 .navLogoName {
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-size: 3.5rem;
-  font-family: "Roboto", sans-serif;
+  font-size: 4rem;
+  font-family: "Gill Sans", sans-serif;
   color: #fff;
+
 }
 .navLogoName a {
   text-decoration: none;
@@ -45,7 +45,7 @@
   width: 100px;
   border-radius: 5px;
   background-color: #fff;
-  color: #400d40;
+  color: #003566;
   font-size: 1.5rem;
   font-family: "Roboto", sans-serif;
   cursor: pointer;
@@ -53,12 +53,12 @@
 }
 .login-button:hover{
   background-color: #511151;
-  border: 1px solid #400d40;
+  border: 1px solid #003566;
   color: #ffffff;
 }
 .register-button:hover{
   background-color: #511151;
-  border: 1px solid #400d40;
+  border: 1px solid #003566;
   color: #ffffff;
 }
 .register-button{
@@ -69,7 +69,7 @@
   height: 40px;
   width: 120px;
   border-radius: 5px;
-  background-color: #400d40;
+  background-color: #003566;
   color: #fff;
   border:2px solid #fff;
   font-size: 1.5rem;
@@ -85,7 +85,7 @@
   height: 40px;
   width: 140px;
   border-radius: 5px;
-  background-color: #400d40;
+  background-color: #003566;
   color: #fff;
   border:2px solid #fff;
   font-size: 1.5rem;
@@ -95,7 +95,7 @@
 }
 .demo-user-button:hover{
   background-color: #511151;
-  border: 1px solid #400d40;
+  border: 1px solid #003566;
   color: #ffffff;
 }
 .login-menu{
@@ -130,7 +130,7 @@
   transform: translateX(50%);
   background-color: #fff;
   border-radius: 5px;
-  border:3px solid #400d40;
+  border:3px solid #003566;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -153,7 +153,7 @@
   justify-content: center;
   height: 40px;
   width: 40px;
-  background-color: #400d40;
+  background-color: #003566;
   color: #fff;
   border-radius: 0px 0px 0px 5px;
   font-size: 1.5rem;
@@ -168,7 +168,7 @@
   justify-content: center;
   height: 40px;
   width: 100%;
-  background-color: #400d40;
+  background-color: #003566;
   color: #fff;
   font-size: 1.5rem;
   font-family: "Roboto", sans-serif;
@@ -296,7 +296,7 @@
   height: 40px;
   width: 140px;
   border-radius: 5px;
-  background-color: #400d40;
+  background-color: #003566;
   color: #fff;
   border:2px solid #fff;
   font-size: 1.5rem;

@@ -19,7 +19,7 @@
     width: 70%;
     gap: 20px;
     border-radius: 10px;
-    border: 4px solid #400d40;
+    border: 4px solid #003566;
     background-color: #ffffff;
 }
 .landing-demo-room-enter-button{
@@ -32,7 +32,7 @@
     height: 40px;
     width: 140px;
     border-radius: 5px;
-    background-color: #400d40;
+    background-color: #003566;
     color: #ffffff;
     font-size: 1.5rem;
     font-family: "Roboto", sans-serif;
@@ -42,7 +42,7 @@
 }
 .landing-demo-room-enter-button:hover{
     background-color: #511151;
-    border: 1px solid #400d40;
+    border: 1px solid #003566;
     color: #ffffff;
 }
 
@@ -56,7 +56,7 @@
     font-size: 2rem;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    color: #400d40;
+    color: #003566;
 }
 .landing-demo-room-description{
     display: flex;
@@ -78,7 +78,7 @@
 
 .welcomeback{
     margin: 50px;
-    background-color: #400d40;
+    background-color: #003566;
     color: white;
     width: 270px;
     height: 60px;
@@ -110,7 +110,7 @@
 
 .landingfifthh{
     margin: 50px;
-    background-color: #400d40;
+    background-color: #003566;
     color: white;
     width: 300px;
     height: 60px;
