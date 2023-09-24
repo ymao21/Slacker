@@ -20,8 +20,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 90px;
-  width: 90px;
+  height: 150px;
+  width: 150px;
 }
 .navLogoName {
   display: flex;
@@ -52,12 +52,12 @@
   user-select: none;
 }
 .login-button:hover{
-  background-color: #390099;
+  background-color: #023e8a;
   border: 1px solid #003566;
   color: #ffffff;
 }
 .register-button:hover{
-  background-color: #390099;
+  background-color: #023e8a;
   border: 1px solid #003566;
   color: #ffffff;
 }
@@ -94,7 +94,7 @@
   user-select: none;
 }
 .demo-user-button:hover{
-  background-color: #390099;
+  background-color: #023e8a;
   border: 1px solid #003566;
   color: #ffffff;
 }
