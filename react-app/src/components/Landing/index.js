@@ -3,6 +3,7 @@ import { Redirect } from 'react-router-dom';
 import { useState } from 'react';
 import './Landing.css';
 import landingPageImage from '../../assets/landingPage.png';
+import landingPageGif from '../../assets/landingPage.gif';
 
 function Landing() {
     const user = useSelector(state => state.session.user);
@@ -30,16 +31,19 @@ function Landing() {
                     <img src={landingPageImage} alt="Landing Page"
                        className='landingimage' />
 
-      <div className='text-container'>
 
-        <h1 className='landingfirsth'>One Platform For Your Team and Your Work</h1>
+      <div className='text-container'>
+      <h1 className='landingthirdh'>Discover a new way of working</h1>
+      <img src={landingPageGif} alt="Landing gif"
+                       className='landinggif' />
+
         <h2 className='landingsecondh'>All the features work together so you can too.</h2>
-        <h1 className='landingthirdh'>Discover a new way of working</h1>
+
         <h2 className='landingfourthh'>
           Bring the right people and information together in channels. Share ideas, make decisions and move work forward with a common purpose and place.
         </h2>
       </div>
-      
+
 
     </div>
 
