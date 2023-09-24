@@ -41,7 +41,7 @@
     user-select: none;
 }
 .landing-demo-room-enter-button:hover{
-    background-color: #511151;
+    background-color: #003566;
     border: 1px solid #003566;
     color: #ffffff;
 }
@@ -75,8 +75,21 @@
     display: grid;
     place-items:  center;
 }
-
-.welcomeback{
+.image-container {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  .landingimage {
+    max-width: 43%;
+    margin-right: 20px;
+  }
+  .text-container {
+    flex: 1;
+    background-color: red;
+  }
+/* .welcomeback{
     margin: 50px;
     background-color: #003566;
     color: white;
@@ -85,7 +98,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .landingfirsth{
     font-family: fantasy;
