@@ -102,26 +102,27 @@
   }
 
   .landingsecondh {
-    font-size: 18px;
+    font-size: 35px;
     margin-bottom: 20px;
   }
 
   .landingthirdh {
-    font-size: 52px;
-    font-weight: bolder;
-    margin-bottom: 10px;
-    font-family: cursive, sans-serif;
+    font-size: 58px;
+    font-weight: 9000;
+    margin-bottom: 40px;
+    font-family: "Segoe Script";
 
   }
 
+
   .landingfourthh {
-  top: 20px;
+  top: 30px;
     font-size: 18px;
     margin-bottom: 20px;
   }
 
 
-.social-footer{
+/* .social-footer{
     position: absolute;
     bottom: 0;
     height:60px;
@@ -133,4 +134,8 @@
     gap: 10px;
     padding:10px 10px;
 
+} */
+
+.social-footer {
+ margin-top: 10px;
 }
