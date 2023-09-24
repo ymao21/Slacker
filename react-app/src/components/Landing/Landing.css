@@ -106,13 +106,13 @@
     margin-bottom: 20px;
   }
 
-  .landingthirdh {
+  /* .landingthirdh {
     font-size: 58px;
     font-weight: 9000;
     margin-bottom: 40px;
     font-family: "Segoe Script";
 
-  }
+  } */
 
 
   .landingfourthh {
@@ -139,3 +139,26 @@
 .social-footer {
  margin-top: 10px;
 }
+
+
+.container{
+    display: inline-block;
+    /* font-family: "arial"; */
+    font-size: 24px;
+    font-family: "Segoe Script";
+  }
+
+  .typed {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing;
+    animation-duration: 1.5s;
+    animation-timing-function: steps(30, end);
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }

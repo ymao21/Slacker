@@ -33,7 +33,11 @@ function Landing() {
 
 
       <div className='text-container'>
-      <h1 className='landingthirdh'>Discover a new way of working</h1>
+
+      <div class="container">
+      <h1 class="typed">Discover a new way of working</h1>
+      </div>
+
       <img src={landingPageGif} alt="Landing gif"
                        className='landinggif' />
 
