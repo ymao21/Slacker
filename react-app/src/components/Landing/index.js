@@ -7,6 +7,8 @@ import landingPageImage2 from '../../assets/landingPage2.png';
 import landingPageImage3 from '../../assets/landingPage3.png';
 import landingPageImage4 from '../../assets/landingPage4.png';
 
+import ImageRotator from './imageRotater';
+
 import landingPageGif from '../../assets/landingPage.gif';
 
 function Landing() {
@@ -29,9 +31,11 @@ function Landing() {
                     <div className='landingpage'>
 
 <div className='image-container'>
-<img src={landingPageImage} alt="Landing Page"
-   className='landingimage' />
 
+{/* <img src={landingPageImage} alt="Landing Page"
+   className='landingimage' /> */}
+
+<ImageRotator />
 
 <div className='text-container'>
 
@@ -75,8 +79,10 @@ Bring the right people and information together in channels. Share ideas, make d
                     <div className='landingpage'>
 
                     <div className='image-container'>
-                    <img src={landingPageImage} alt="Landing Page"
-                       className='landingimage' />
+                    {/* <img src={landingPageImage} alt="Landing Page"
+                       className='landingimage' /> */}
+
+<ImageRotator />
 
 
       <div className='text-container'>
