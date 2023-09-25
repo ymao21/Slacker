@@ -43,6 +43,7 @@
 }
 .landing-demo-room-enter-button:hover{
     background-color: #4361ee;
+    box-shadow: 0 9px 9px rgba(0, 0, 0, 0.2);
     border: 1px solid #4361ee;
     color: #ffffff;
 }
@@ -181,7 +182,7 @@ margin-right: 20px;
     font-weight: bold;
 }
 .github-button img {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     margin-right: 10px;
 }

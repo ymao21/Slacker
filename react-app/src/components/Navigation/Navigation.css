@@ -44,22 +44,26 @@
   height: 40px;
   width: 100px;
   border-radius: 5px;
-  background-color: #fff;
-  color: #003566;
+  /* background-color: #fff; */
+  /* color: #003566; */
+  color: #fff;
   font-size: 1.5rem;
   font-family: "Roboto", sans-serif;
   cursor: pointer;
   user-select: none;
 }
 .login-button:hover{
-  background-color: #023e8a;
+  /* background-color: #023e8a;
   border: 1px solid #003566;
-  color: #ffffff;
+  color: #ffffff; */
+  text-decoration: underline;
 }
 .register-button:hover{
-  background-color: #023e8a;
+  /* background-color: #023e8a;
   border: 1px solid #003566;
-  color: #ffffff;
+  color: #ffffff; */
+
+  text-decoration: underline;
 }
 .register-button{
   display: flex;
@@ -69,9 +73,9 @@
   height: 40px;
   width: 120px;
   border-radius: 5px;
-  background-color: #003566;
+  /* background-color: #003566; */
   color: #fff;
-  border:2px solid #fff;
+  /* border:2px solid #fff; */
   font-size: 1.5rem;
   font-family: "Roboto", sans-serif;
   cursor: pointer;
@@ -87,15 +91,15 @@
   border-radius: 5px;
   background-color: #003566;
   color: #fff;
-  border:2px solid #fff;
+  /* border:2px solid #fff; */
   font-size: 1.5rem;
   font-family: "Roboto", sans-serif;
   cursor: pointer;
   user-select: none;
 }
 .demo-user-button:hover{
-  background-color: #023e8a;
-  border: 1px solid #003566;
+  background-color: rgb(1, 42, 94);
+  /* border: 1px solid #003566; */
   color: #ffffff;
 }
 .login-menu{
