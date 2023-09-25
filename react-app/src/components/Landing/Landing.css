@@ -33,7 +33,7 @@
     height: 40px;
     width: 300px;
     border-radius: 5px;
-    background-color: #003566;
+    background-color: #4361ee;
     color: #ffffff;
     font-size: 1.5rem;
     font-family: "Roboto", sans-serif;
@@ -42,8 +42,8 @@
     user-select: none;
 }
 .landing-demo-room-enter-button:hover{
-    background-color: #003566;
-    border: 1px solid #003566;
+    background-color: #4361ee;
+    border: 1px solid #4361ee;
     color: #ffffff;
 }
 
