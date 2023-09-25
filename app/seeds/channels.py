@@ -140,10 +140,12 @@ def seed_channels():
 def undo_channels():
     if environment == "production":
         db.session.execute(f"TRUNCATE table {SCHEMA}.rooms RESTART IDENTITY CASCADE;")
+        db.session.execute(f"TRUNCATE table {SCHEMA}.messages RESTART IDENTITY CASCADE;")
         db.session.execute(f"TRUNCATE table {SCHEMA}.room_members RESTART IDENTITY CASCADE;")
     else:
         db.session.execute(text("DELETE FROM rooms"))
         db.session.execute(text("DELETE FROM messages"))
         db.session.execute(text("DELETE FROM room_members"))
+
 
     db.session.commit()
