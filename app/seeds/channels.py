@@ -59,20 +59,20 @@ def seed_channels():
     message2 = Message(
         message="Welcome to the  *Demo Room*", user=user, room=room,date=four_days_ago)
     message3 = Message(
-        message="Look at us! Having a conversation!", user=user3, room=room,date=three_days_ago)
+        message="Good Morning! did you see the meeting on your calendar today", user=user3, room=room,date=three_days_ago)
     message4 = Message(
-        message="I'm the first president of the UNITED STATES OF AMERICA!  **this app is educational**", user=user4, room=room,date=three_days_ago)
+        message="Yes, it is at 2 PM Correct?", user=user4, room=room,date=three_days_ago)
     message5 = Message(
-        message="I'm the first president of the UNITED STATES OF AMERICA!  **this app is educational**", user=user4, room=room,date=day_before_yesterday)
+        message="Are you prepared for your presentation???", user=user4, room=room,date=day_before_yesterday)
     message6 = Message(
-        message="stop spamming the chat @George ", user=user3, room=room,date=day_before_yesterday)
+        message="yesss", user=user3, room=room,date=day_before_yesterday)
     message7 = Message(
-        message=" @Tony *I CROSSED THE DELAWARE*", user=user4, room=room,date=day_before_yesterday)
+        message=" Great!! Sounds like a plan", user=user4, room=room,date=day_before_yesterday)
 
     message8 = Message(
         message="This is the demo room? So cool 😂", user=user2, room=room,date=current_date)
     message9 = Message(
-        message="Yeah it is! `I'm talking to myself!`", user=user, room=room,date=current_date)
+        message="Yeah it is!", user=user, room=room,date=current_date)
     message10 = Message(
         message="You can scroll up to  *load* more messages", user=user2, room=room,date=current_date)
     message11 = Message(
@@ -86,11 +86,11 @@ def seed_channels():
     message15 = Message(
         message="No more tutorial", user=user, room=room,date=current_date)
     message16 = Message(
-        message="Now we're just padding the message count", user=user2, room=room,date=current_date)
+        message="More Messages", user=user2, room=room,date=current_date)
     message17 = Message(
         message="Really makes the app feel alive", user=user2, room=room,date=current_date)
     message19 = Message(
-        message="**WOODEN TEETH**", user=user4, room=room,date=current_date)
+        message="Have a great day!!!", user=user4, room=room,date=current_date)
 
 
 
@@ -123,8 +123,6 @@ def seed_channels():
     db.session.add(message15)
     db.session.add(message16)
     db.session.add(message17)
-    # this one crossed a line
-    # db.session.add(message18)
     db.session.add(message19)
 
 
@@ -139,9 +137,10 @@ def seed_channels():
 # it will reset the primary keys for you as well.
 def undo_channels():
     if environment == "production":
-        db.session.execute(f"TRUNCATE table {SCHEMA}.rooms RESTART IDENTITY CASCADE;")
+
         db.session.execute(f"TRUNCATE table {SCHEMA}.messages RESTART IDENTITY CASCADE;")
         db.session.execute(f"TRUNCATE table {SCHEMA}.room_members RESTART IDENTITY CASCADE;")
+        db.session.execute(f"TRUNCATE table {SCHEMA}.rooms RESTART IDENTITY CASCADE;")
     else:
         db.session.execute(text("DELETE FROM rooms"))
         db.session.execute(text("DELETE FROM messages"))
