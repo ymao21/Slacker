@@ -213,11 +213,7 @@ code{
   border-radius: 5px;
   font-size: 14px;
 }
-.chat-message-icon{
 
-
-
-}
 .chat-message-edit-delete{
   position: relative;
 }
@@ -282,10 +278,10 @@ code{
   opacity: 0.75;
 
 }
-.main-chat-user-list:hover{
+/* .main-chat-user-list:hover{
   cursor: pointer;
   opacity: 1;
-}
+} */
 .main-chat-user-list img{
   width: 25px;
   height: 25px;

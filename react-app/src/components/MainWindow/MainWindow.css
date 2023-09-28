@@ -359,7 +359,7 @@
 }
 .search-modal{
   position: absolute;
-  top: 0px;
+  top: 15px;
   left: 0px;
   margin: 0;
   padding:0;
@@ -461,7 +461,7 @@
   left: 0px;
   margin: 0;
   padding:10px;
-  width: 100%;
+  width: 90%;
   gap: 10px;
   color:#d1d2d373;
   display: flex;
@@ -518,7 +518,7 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  width: 100%;
+  width: 60%;
   height: 30px;
   margin-top: 5px;
   background-color: #1A1D21;

@@ -27,7 +27,11 @@
     background-color: #261f12;
     color: #828184;
     border: none;
-    margin: 5px;
+    /* margin: 2px; */
+    margin-left: 5px;
+    border-radius: 50px;
+    width: 30px;
+    padding-bottom: 8px;
 }
 
 .deleteChannelbtn{
