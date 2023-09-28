@@ -8,6 +8,8 @@
   background-color: #1A1D21;
   color: #D1D2D3;
 
+
+
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   overflow: hidden;
 }
@@ -262,6 +264,7 @@ code{
   height: 30px;
   border-radius: 50%;
   margin-right: 10px;
+  margin-top: 20px;
 }
 
 .main-chat-user-list{
@@ -296,8 +299,7 @@ code{
   flex-direction: row;
   justify-content: space-between;
   border-bottom: 1px solid #d1d2d3a7;
-  /* align-items: center; */
-  width: calc(100vw - 292px);
+  width:75%;
   height: 44px;
   padding: 0 24px;
   background-color: #1A1D21;
