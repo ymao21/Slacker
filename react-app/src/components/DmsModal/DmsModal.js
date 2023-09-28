@@ -22,7 +22,7 @@ function DmsModal({ setOpenModal }) {
           </div>
 
           <div className="body">
-            <DmsDetail/>
+            {/* <DmsDetail/> */}
           </div>
           <div className="DmsModal">
             <button
@@ -43,7 +43,7 @@ function DmsModal({ setOpenModal }) {
              {show &&
 
              <div className="EditDmsForm">
-              < EditDmsForm/>
+              {/* < EditDmsForm/> */}
               </div>
               }
 

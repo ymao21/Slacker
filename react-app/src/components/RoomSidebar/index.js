@@ -28,8 +28,6 @@ function RoomSidebar() {
       <div className="room-sidebar-header">
         <h2>Current Channel:</h2>
 
-
-
         {/* {currentChannel && <h3>{currentChannel.name}</h3>} */}
 
         {(channels) &&
@@ -39,19 +37,18 @@ function RoomSidebar() {
         }
         <ChannelBrowser />
 
-        <h2>Direct Messages:</h2>
 
-
+        {/* <h2>Direct Messages:</h2>
         {(dms) &&
           <div>
             <CreateDmsForm />
           </div>
         }
-        {/* <div>
+        <div>
           <CreateDmsForm />
-        </div> */}
+        </div>
+        <DmsBrowser /> */}
 
-        <DmsBrowser />
         <GroupDM />
 
 

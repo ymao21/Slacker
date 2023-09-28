@@ -45,6 +45,7 @@
     margin-top:10px;
     margin-left:5px;
     display: flex;
+    font-size: 1.1rem;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
@@ -55,6 +56,31 @@
 }
 .group-DM-list-item:hover{
     cursor: pointer;
-    background-color: #1A1D21;
     color: #D1D2D3;
+}
+.group-DM-container-outer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#d1d2d387;
+    font-size: 1.3rem;
+    margin-bottom:30px;
+}
+
+.group-DM-number{
+    position: relative;
+    left:-15px;
+    top:5px;
+    font-size: 0.7rem;
+    background-color: #1A1D21;
+    border-radius: 20%;
+    padding:2px 5px;
+    border:1px solid #D1D2D3;
+}
+.left-10{
+    position:relative;
+    left:-10px;
+}
+.group-DM-list-item-icon{
+    width: 26px;
+    height: 26px;
+    border-radius: 4px;
 }
