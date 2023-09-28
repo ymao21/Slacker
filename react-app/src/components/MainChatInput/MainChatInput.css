@@ -5,6 +5,11 @@
     background-color: #222529;
     height: fit-content;
     padding: 5px;
+
+position: relative;
+    left: -10px;
+    top: -30px;
+
 }
 .RichEditor-controls{
     margin-bottom:auto;cursor: text;
@@ -94,5 +99,3 @@
 .main-chat-input-text:focus{
     outline: none;
 }
-
-

@@ -131,7 +131,7 @@
   padding:5px 10px;
   margin-right: 10px;
   position: relative;
-  top:0;
+  top: 5px;
   left:0;
   width: 30px;
   height:30px;
@@ -167,6 +167,12 @@
   pointer-events: none;
   filter:drop-shadow(0 0 10px rgba(0, 0, 0, 0.8));
   pointer-events: auto;
+}
+
+.status-modal-header{
+
+  position: relative;
+  left: 138px;
 }
 .status-modal-x-button{
   position: absolute;
@@ -210,7 +216,8 @@
   justify-content: flex-end;
   align-items: center;
   height: 50px;
-  width: 100%;
+
+  width: 68%;
   padding: 0 20px;
   pointer-events: auto;
 }
@@ -222,8 +229,8 @@
   font-weight: 400;
   font-size: 12px;
   margin-right:10px;
-  width: 93px;
-  height: 34px;
+  width: 70px;
+  height: 20px;
   padding: 0 10px;
   background-color: #1A1D21;
   color: #D1D2D3;
@@ -238,8 +245,8 @@
   align-items: center;
   font-weight: 400;
   font-size: 12px;
-  width: 93px;
-  height: 34px;
+  width: 70px;
+  height: 20px;
   padding: 0 10px;
   background-color: #007a5930;
   color: #D1D2D3;
@@ -253,8 +260,8 @@
   align-items: center;
   font-weight: 400;
   font-size: 12px;
-  width: 93px;
-  height: 34px;
+  width: 70px;
+  height: 20px;
   padding: 0 10px;
   background-color: #007A5A;
   color: #D1D2D3;
@@ -276,6 +283,8 @@
   height: 100%;
   padding: 10px;
   pointer-events: auto;
+  position: relative;
+  top:-20px;
 }
 .status-red{
   background-color: #FF0000;
@@ -341,7 +350,7 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  width: 100%;
+  width: 80%;
   height: 30px;
   margin-top: 5px;
   background-color: #1A1D21;
