@@ -84,3 +84,9 @@
     height: 26px;
     border-radius: 4px;
 }
+.DirectMessageText{
+    color: #c4c4c7;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family: Verdana, sans-serif;
+}

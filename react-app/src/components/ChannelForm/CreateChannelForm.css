@@ -1,50 +1,93 @@
-
-
-
-.ExpandChannelsBtn{
-    padding: 7x;
-    width: 100px;
+.ExpandChannelsBtn {
+    padding: 7px;
+    width: 200px;
     background-color: #261f12;
     color: #828184;
     border: none;
     padding: 10px;
-}
+  }
 
-.ExpandChannelsBtn:hover{
+  .ExpandChannelsBtn:hover {
     background-color: #252425;
-}
+  }
 
-
-.CreateChannelBttn{
-    padding: 7x;
-    width: 100px;
+  .CreateChannelBttn {
+    padding: 7px;
+    width: 150px;
     background-color: #261f12;
     color: #828184;
     border: none;
     padding: 10px;
-}
+  }
 
-.CreateChannelBttn:hover{
+  .CreateChannelBttn:hover {
     background-color: #252425;
-}
+  }
 
-.createChannelName{
+  .createChannelName {
     height: 30px;
     border-radius: 5px;
     border: none;
     margin: 5px;
     padding: 5px;
-}
+  }
 
-.createChannelType{
+  .createChannelType {
     height: 30px;
     border-radius: 5px;
     border: none;
     margin: 5px;
     padding: 5px;
-}
+  }
 
-.CreateChannelError{
+  .CreateChannelError {
     color: rgb(180, 73, 73);
     padding: 5px;
-}
+  }
+
+
+  .Channelmodal {
+    position: fixed;
+    top: 50%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+    background-color: #1A1D21;
+    border: 1px solid #d1d2d330;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Channelmodal .closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    color: #d1d2d330;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .Channelmodal input[type="text"] {
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px;
+    background-color: #D1D2D3;
+  }
+
+  .Channelmodal button[type="submit"] {
+    background-color: #261f12;
+    color: #c4c4c7;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .Channelmodal button[type="submit"]:hover {
+    background-color: #252425;
+  }

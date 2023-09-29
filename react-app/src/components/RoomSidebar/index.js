@@ -26,7 +26,7 @@ function RoomSidebar() {
   return (
     <div className="room-sidebar">
       <div className="room-sidebar-header">
-        <h2>Current Channel:</h2>
+        <h2 className="DirectMessageText">Current channels:</h2>
 
         {/* {currentChannel && <h3>{currentChannel.name}</h3>} */}
 

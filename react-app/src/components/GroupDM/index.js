@@ -102,7 +102,7 @@ function GroupDM() {
         <div className='group-DM-container-outer'>
             <div className='group-DM-container'>
                 <FontAwesomeIcon onClick={toggleOpen} icon={faPlay} className={open ? 'group-DM-triangle triangle-open' : 'group-DM-triangle'} />
-                <span>Direct Messages</span>
+                <span className='DirectMessageText'>Direct Messages</span>
                 <FontAwesomeIcon icon={faPlusSquare} className='group-DM-plus' onClick={() => {
                     dispatch(toggleGroupDM())
                 }
