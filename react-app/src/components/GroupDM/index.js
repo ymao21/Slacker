@@ -123,8 +123,9 @@ function GroupDM() {
                                     </>
                                 }
                                 {group.type === 2 &&
-                                    <><img src={defaultIcon} className='group-DM-list-item-icon' />
-                                        <div className='group-DM-number'>{getNumber(group.name)}</div>
+                                    <>
+                                    {/* <img src={defaultIcon} className='group-DM-list-item-icon' /> */}
+                                        {/* <div className='group-DM-number'>{getNumber(group.name)}</div> */}
                                         <div className='group-DM-list-item-name left-10'>{trimName(removeOurName(group.name))}</div>
                                     </>
                                 }

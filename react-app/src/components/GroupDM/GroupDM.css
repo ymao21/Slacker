@@ -43,7 +43,7 @@
 }
 .group-DM-list-item{
     margin-top:10px;
-    margin-left:5px;
+    margin-left:35px;
     display: flex;
     font-size: 1.1rem;
     flex-direction: row;
@@ -53,10 +53,12 @@
     width: fit-content;
     padding:1px;
     border-radius: 5px;
+    font-family: Verdana, sans-serif;
+    color: #c4c4c7;
 }
 .group-DM-list-item:hover{
     cursor: pointer;
-    color: #D1D2D3;
+
 }
 .group-DM-container-outer{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
