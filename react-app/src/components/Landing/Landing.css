@@ -67,7 +67,7 @@
     padding: 10px;
   }
   .landingimage {
-    max-width: 43%;
+    width: 400px;
     margin-right: 20px;
   }
   .landinggif {
@@ -118,8 +118,8 @@ margin-right: 20px;
     display: inline-flex;
     align-items: center;
     text-decoration: none;
-    background-color: #4361ee;
-    color: #ffffff;
+    background-color: #003c7b;
+    color:#F4EDE4;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -138,9 +138,7 @@ margin-right: 20px;
     background-color: #F4EDE4;
 }
 
-.landingContainer2-content{
-      margin-left: 25%;
-}
+
 .landingContainer2-content h1{
       flex: 1;
     padding: 20px;
