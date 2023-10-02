@@ -6,7 +6,9 @@
     width: 100%;
     height: 100%;
     gap:10px;
-
+    color: #a3a3a6;
+    font-weight: 400;
+    font-family: Lato;
     user-select: none;
 }
 .group-DM-triangle{
@@ -53,8 +55,9 @@
     width: fit-content;
     padding:1px;
     border-radius: 5px;
-    font-family: Verdana, sans-serif;
-    color: #c4c4c7;
+    color: #a3a3a6;
+    font-weight: 400;
+    font-family: Lato;
 }
 .group-DM-list-item:hover{
     cursor: pointer;

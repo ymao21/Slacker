@@ -15,8 +15,9 @@
     display: flex;
     text-decoration: none;
     padding: 5px;
-    color: #c4c4c7;
-    font-family: Verdana, sans-serif;
+    color: #a3a3a6;
+    font-weight: 400;
+    font-family: Lato;
 }
 
 
