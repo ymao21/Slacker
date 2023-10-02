@@ -3,14 +3,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin-top: 5vh; */
     justify-content: flex-start;
     height: 8vh;
     width: 100vw;
-    /* background-color: #f5f5f5; */
-
 }
-
 .landing-demo-room-enter-button{
     position: absolute;
     bottom: 20px;
@@ -24,7 +20,7 @@
     background-color: #4361ee;
     color: #ffffff;
     font-size: 1.5rem;
-    font-family: "Roboto", sans-serif;
+    font-family: "Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
     font-weight: 700;
     cursor: pointer;
     user-select: none;
@@ -44,7 +40,7 @@
     height: 10%;
     width: 100%;
     font-size: 2rem;
-    font-family: "Roboto", sans-serif;
+    font-family: "Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
     font-weight: 700;
     color: #003566;
 }
@@ -56,11 +52,10 @@
     height: 10%;
     width: 100%;
     font-size: 1.5rem;
-    font-family: "Roboto", sans-serif;
+    font-family: "Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
     font-weight: 400;
     color: #2e2e2e;
 }
-
 .landingpage{
     display: grid;
     place-items:  center;
@@ -68,58 +63,39 @@
 .image-container {
     display: flex;
     align-items: center;
-    /* background-color: #f0f0f0; */
+
     padding: 10px;
   }
   .landingimage {
     max-width: 43%;
     margin-right: 20px;
   }
-
   .landinggif {
     max-width: 50%;
     margin-right: 20px;
     margin-bottom: 20px;
   }
-
-
 .text-container {
     color: #2e2e2e;
-    font-family: Arial, sans-serif;
+    font-family: "Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
     padding: 10px;
     text-align: center;
   }
-
   .landingsecondh {
     font-size: 35px;
     margin-bottom: 20px;
   }
-
-  /* .landingthirdh {
-    font-size: 58px;
-    font-weight: 9000;
-    margin-bottom: 40px;
-    font-family: "Segoe Script";
-
-  } */
-
-
   .landingfourthh {
   top: 30px;
     font-size: 18px;
     margin-bottom: 20px;
   }
-
-
-
 .container{
     display: inline-block;
     font-size: 24px;
-    font-family: "Segoe Script";
+    font-family: "Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
   }
-
   .typed {
-
     overflow: hidden;
     white-space: nowrap;
     width: 0;
@@ -128,20 +104,16 @@
     animation-timing-function: steps(30, end);
     animation-fill-mode: forwards;
   }
-
   @keyframes typing {
     from { width: 0 }
     to { width: 100% }
   }
-
-
   .social-footer {
     margin-top: 10px;
     display: flex;
 justify-content: flex-end;
 margin-right: 20px;
    }
-
    .github-button {
     display: inline-flex;
     align-items: center;
@@ -158,34 +130,33 @@ margin-right: 20px;
     height: 25px;
     margin-right: 10px;
 }
-
-
-
 .landingContainer2{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 600px;
-
-
+    background-color: #F4EDE4;
 }
 
 .landingContainer2-content{
       margin-left: 25%;
 }
-
 .landingContainer2-content h1{
       flex: 1;
     padding: 20px;
     text-align: left;
-    width: 250px;
+    width: 260px;
+    font-family: "Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
 
 .landingContainer2-content p{
+  margin-top: -40px;
       flex: 1;
     padding: 20px;
     text-align: left;
       width: 350px;
+      font-family: "Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+
 }
 
 .landingContainer2-image{
