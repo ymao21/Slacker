@@ -79,20 +79,22 @@ Bring the right people and information together in channels. Share ideas, make d
                     <div className='landingpage'>
 
                     <div className='image-container'>
-                    {/* <img src={landingPageImage} alt="Landing Page"
-                       className='landingimage' /> */}
 
-<ImageRotator />
+
 
 
       <div className='text-container'>
-
-      <div class="container">
       <h1 class="typed">Discover a new way of working</h1>
-      </div>
+
+
 
       <img src={landingPageGif} alt="Landing gif"
                        className='landinggif' />
+
+
+
+
+
 
         <h2 className='landingsecondh'>All the features work together so you can too.</h2>
 
@@ -102,6 +104,26 @@ Bring the right people and information together in channels. Share ideas, make d
       </div>
     </div>
   </div>
+
+
+
+                    <div className='landingContainer2'>
+
+                    <div class="landingContainer2-content">
+                    <h1>Choose how you want to work </h1>
+
+                    <p>In Slacker, you will no longer be slacking!
+                        You can easily chat with all your friends and coworkers. You've got
+                        all the flexibility to work when, where and how it's best for you.</p>
+                </div>
+
+                <div className='landingContainer2-image'>
+
+                    <ImageRotator />
+
+                    </div>
+
+                    </div>
 
                     <div className='social-footer'>
                         <div>
@@ -117,6 +139,8 @@ Bring the right people and information together in channels. Share ideas, make d
                         </div>
 
                     </div>
+
+
                 </>
             );
     }

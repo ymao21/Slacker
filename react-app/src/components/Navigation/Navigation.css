@@ -13,15 +13,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 150px;
+  height: 80px;
 }
 
 .logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 150px;
-  width: 150px;
+  height: 70px;
+  width: 70px;
 }
 .navLogoName {
   display: flex;
@@ -44,8 +44,6 @@
   height: 40px;
   width: 100px;
   border-radius: 5px;
-  /* background-color: #fff; */
-  /* color: #003566; */
   color: #fff;
   font-size: 1.5rem;
   font-family: "Roboto", sans-serif;
@@ -53,16 +51,9 @@
   user-select: none;
 }
 .login-button:hover{
-  /* background-color: #023e8a;
-  border: 1px solid #003566;
-  color: #ffffff; */
   text-decoration: underline;
 }
 .register-button:hover{
-  /* background-color: #023e8a;
-  border: 1px solid #003566;
-  color: #ffffff; */
-
   text-decoration: underline;
 }
 .register-button{
