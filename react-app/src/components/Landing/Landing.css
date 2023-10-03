@@ -6,6 +6,8 @@
     justify-content: flex-start;
     height: 8vh;
     width: 100vw;
+    top: 100px;
+    background-color: red;
 
 }
 .landing-demo-room-enter-button{

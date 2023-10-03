@@ -2,13 +2,7 @@ import { useSelector } from 'react-redux';
 import { Redirect } from 'react-router-dom';
 import { useState } from 'react';
 import './Landing.css';
-import landingPageImage from '../../assets/landingPage.png';
-import landingPageImage2 from '../../assets/landingPage2.png';
-import landingPageImage3 from '../../assets/landingPage3.png';
-import landingPageImage4 from '../../assets/landingPage4.png';
-
 import ImageRotator from './imageRotater';
-
 import landingPageGif from '../../assets/landingPage.gif';
 
 function Landing() {
@@ -24,9 +18,7 @@ function Landing() {
                     </div>
 
 </>
-
 );
-
 
 if (!user)
             return (
@@ -51,8 +43,6 @@ if (!user)
   </div>
 
 </div>
-
-
 
 
                     <div className='landingContainer2'>
