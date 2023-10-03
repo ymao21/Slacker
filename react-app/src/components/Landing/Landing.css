@@ -57,34 +57,38 @@
     color: #2e2e2e;
 }
 .landingpage{
-    display: grid;
-    place-items:  center;
+  background-color: #001d3d;
+    height: 200px;
+    padding: 130px;
+}
+.landingContainer{
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  position: relative;
+  top: -80px;
+
 }
 .image-container {
-    display: flex;
-    align-items: center;
+  flex: 1;
+  }
 
-    padding: 10px;
-  }
   .landingimage {
-    width: 400px;
+    width: 350px;
     margin-right: 20px;
   }
+
   .landinggif {
-    max-width: 50%;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    width: 600px;
+    border-radius: 50px;
   }
 .text-container {
-    color: #2e2e2e;
-    font-family: "Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
-    padding: 10px;
-    text-align: center;
+  flex: 1;
+  padding: 20px;
+  color:#F4EDE4;
   }
-  .landingsecondh {
-    font-size: 35px;
-    margin-bottom: 20px;
-  }
+
+
   .landingfourthh {
   top: 30px;
     font-size: 18px;
@@ -96,6 +100,7 @@
     font-family: "Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
   }
   .typed {
+
     overflow: hidden;
     white-space: nowrap;
     width: 0;

@@ -20,20 +20,11 @@ function Landing() {
                 <>
                     {redirect && <Redirect to="/chat" />}
                     <div className='landing-demo-room-container'>
-                        {/* <div className='landing-demo-room'> */}
-                            {/* <div className='landing-demo-room-title'>Demo Server</div> */}
-                            {/* <div className='landing-demo-room-description'>This is a demo server</div> */}
                             <div className='landing-demo-room-enter-button' onClick={() => setRedirect(true)}>Enter Demo Server</div>
-                        {/* </div> */}
                     </div>
-
-
                     <div className='landingpage'>
 
 <div className='image-container'>
-
-{/* <img src={landingPageImage} alt="Landing Page"
-   className='landingimage' /> */}
 
 <ImageRotator />
 
@@ -64,46 +55,37 @@ Bring the right people and information together in channels. Share ideas, make d
             Yining Mao
             </a>
         </div>
-
-
     </div>
-
 </div>
-                </>
+</>
+
+);
 
 
-            );
-        if (!user)
+if (!user)
             return (
                 <>
-                    <div className='landingpage'>
 
-                    <div className='image-container'>
+<div className='landingpage'>
 
+  <div className='landingContainer'>
 
-
-
-      <div className='text-container'>
-      <h1 class="typed">Discover a new way of working</h1>
-
-
-
-      <img src={landingPageGif} alt="Landing gif"
-                       className='landinggif' />
-
-
-
-
-
-
-        <h2 className='landingsecondh'>All the features work together so you can too.</h2>
-
-        <h2 className='landingfourthh'>
-          Bring the right people and information together in channels. Share ideas, make decisions and move work forward with a common purpose and place.
-        </h2>
-      </div>
+    <div className='image-container'>
+      <img src={landingPageGif} alt="Landing gif" className='landinggif' />
     </div>
+    <div className='text-container'>
+    <h1 class="typed">Discover a new way of working</h1>
+     
+      <h2 className='landingfourthh'>
+        Bring the right people and information together in channels. Share ideas, make decisions and move work forward with a common purpose and place.
+      </h2>
+
+    </div>
+
   </div>
+
+</div>
+
 
 
 
@@ -116,31 +98,20 @@ Bring the right people and information together in channels. Share ideas, make d
                         You can easily chat with all your friends and coworkers. You've got
                         all the flexibility to work when, where and how it's best for you.</p>
                 </div>
-
-                <div className='landingContainer2-image'>
-
-                    <ImageRotator />
-
+                <div className='landingContainer2-image'><ImageRotator /></div>
                     </div>
 
-                    </div>
 
                     <div className='social-footer'>
                         <div>
                             <div className='social-item'>
                                 <a href='https://github.com/ymao21' class="github-button" >
                                     <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt='github' />
-
                                 Yining Mao
                                 </a>
                             </div>
-
-
                         </div>
-
                     </div>
-
-
                 </>
             );
     }
