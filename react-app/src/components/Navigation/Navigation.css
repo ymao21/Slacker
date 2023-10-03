@@ -1,7 +1,6 @@
 .profile-dropdown {
   position: absolute;
 }
-
 .hidden {
   display: none;
 }
@@ -14,8 +13,11 @@
   justify-content: space-between;
   align-items: center;
   height: 80px;
+  font-family: "Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
 }
-
+.slackerName{
+  font-size: 40px;
+}
 .logo {
   display: flex;
   align-items: center;

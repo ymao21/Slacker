@@ -16,7 +16,7 @@ function Navigation({ isLoaded }) {
     <div className="nav-container">
       <div className="navLogoName">
         <img className="logo" src={Logo} alt="Slick Logo" />
-        <NavLink exact to="/">
+        <NavLink exact to="/" className='slackerName'>
           Slacker
         </NavLink>
       </div>

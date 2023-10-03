@@ -81,11 +81,13 @@
   .landinggif {
     width: 600px;
     border-radius: 50px;
+    margin-right: 20px;
   }
 .text-container {
   flex: 1;
   padding: 20px;
   color:#F4EDE4;
+  font-family: "Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
   }
 
 
