@@ -12,9 +12,14 @@ function Landing() {
         if (user)
     return (
                 <>
+
+
                     {redirect && <Redirect to="/chat" />}
+
+    
                     <div className='landing-demo-room-container'>
-                            <div className='landing-demo-room-enter-button' onClick={() => setRedirect(true)}>Enter Demo Server</div>
+                    <h1>Welcome Back</h1>
+                            <div className='landing-demo-room-enter-button' onClick={() => setRedirect(true)}>Launch Demo Server</div>
                     </div>
 
 </>
