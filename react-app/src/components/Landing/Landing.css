@@ -6,6 +6,7 @@
     justify-content: flex-start;
     height: 8vh;
     width: 100vw;
+
 }
 .landing-demo-room-enter-button{
     position: absolute;
@@ -58,15 +59,16 @@
 }
 .landingpage{
   background-color: #001d3d;
-    height: 200px;
+    height: 300px;
     padding: 130px;
+    z-index: -2000;
 }
 .landingContainer{
   display: flex;
   align-items: center;
   margin-left: 40px;
   position: relative;
-  top: -80px;
+  top: -20px;
 
 }
 .image-container {

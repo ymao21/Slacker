@@ -1,3 +1,4 @@
+
 .profile-dropdown {
   position: absolute;
 }
@@ -13,9 +14,22 @@
   justify-content: space-between;
   align-items: center;
   height: 80px;
-  font-family: "Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  transition: height 2s ease;
+  position: fixed;
+  top: 1;
+  width: 96%;
+  z-index: 900;
+  overflow: hidden;
 }
-.slackerName{
+.nav-container-scroll {
+  background-color: #0b1824;
+  width: 90%;
+  border-radius: 20px;
+  margin-left: 3%;
+  color: black;
+}
+.slackerName {
   font-size: 40px;
 }
 .logo {
@@ -24,6 +38,7 @@
   justify-content: center;
   height: 70px;
   width: 70px;
+  margin-right: 5px;
 }
 .navLogoName {
   display: flex;
@@ -32,12 +47,13 @@
   font-size: 4rem;
   font-family: "Gill Sans", sans-serif;
   color: #fff;
-
 }
 .navLogoName a {
   text-decoration: none;
   color: #fff;
 }
+
+
 .login-button{
   display: flex;
   flex-direction: row;
@@ -84,7 +100,6 @@
   border-radius: 5px;
   background-color: #003566;
   color: #fff;
-  /* border:2px solid #fff; */
   font-size: 1.5rem;
   font-family: "Roboto", sans-serif;
   cursor: pointer;
@@ -92,7 +107,6 @@
 }
 .demo-user-button:hover{
   background-color: rgb(1, 42, 94);
-  /* border: 1px solid #003566; */
   color: #ffffff;
 }
 .login-menu{
@@ -117,7 +131,7 @@
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  z-index: 100;
+  z-index: 2000;
   overflow: hidden;
 }
 .login-modal-pop-down{
