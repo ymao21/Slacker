@@ -2,13 +2,7 @@ import { useSelector } from 'react-redux';
 import { Redirect } from 'react-router-dom';
 import { useState } from 'react';
 import './Landing.css';
-import landingPageImage from '../../assets/landingPage.png';
-import landingPageImage2 from '../../assets/landingPage2.png';
-import landingPageImage3 from '../../assets/landingPage3.png';
-import landingPageImage4 from '../../assets/landingPage4.png';
-
 import ImageRotator from './imageRotater';
-
 import landingPageGif from '../../assets/landingPage.gif';
 
 function Landing() {
@@ -16,106 +10,88 @@ function Landing() {
     const [redirect, setRedirect] = useState(false);
     const demoData = () => {
         if (user)
-            return (
+    return (
                 <>
+
+
                     {redirect && <Redirect to="/chat" />}
+
+
                     <div className='landing-demo-room-container'>
-                        {/* <div className='landing-demo-room'> */}
-                            {/* <div className='landing-demo-room-title'>Demo Server</div> */}
-                            {/* <div className='landing-demo-room-description'>This is a demo server</div> */}
-                            <div className='landing-demo-room-enter-button' onClick={() => setRedirect(true)}>Enter Demo Server</div>
-                        {/* </div> */}
+
+                            <div className='landing-demo-room-enter-button' onClick={() => setRedirect(true)}>Launch Demo Server</div>
                     </div>
 
-
                     <div className='landingpage'>
 
-<div className='image-container'>
+  <div className='landingContainer'>
 
-{/* <img src={landingPageImage} alt="Landing Page"
-   className='landingimage' /> */}
+    <div className='image-container'>
+      <img src={landingPageGif} alt="Landing gif" className='landinggif' />
+    </div>
+    <div className='text-container'>
+    <h1 class="typed">Discover a new way of working</h1>
 
-<ImageRotator />
-
-<div className='text-container'>
-
-<div class="container">
-<h1 class="typed">Discover a new way of working</h1>
-</div>
-
-<img src={landingPageGif} alt="Landing gif"
-   className='landinggif' />
-
-<h2 className='landingsecondh'>All the features work together so you can too.</h2>
-
-<h2 className='landingfourthh'>
-Bring the right people and information together in channels. Share ideas, make decisions and move work forward with a common purpose and place.
-</h2>
-</div>
-</div>
-</div>
-
-<div className='social-footer'>
-    <div>
-        <div className='social-item'>
-            <a href='https://github.com/ymao21' class="github-button" >
-                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt='github' />
-
-            Yining Mao
-            </a>
-        </div>
-
+      <h2 className='landingfourthh'>
+        Bring the right people and information together in channels. Share ideas, make decisions and move work forward with a common purpose and place.
+      </h2>
 
     </div>
 
+  </div>
+
 </div>
-                </>
 
+</>
+);
 
-            );
-        if (!user)
+if (!user)
             return (
                 <>
-                    <div className='landingpage'>
 
-                    <div className='image-container'>
-                    {/* <img src={landingPageImage} alt="Landing Page"
-                       className='landingimage' /> */}
+<div className='landingpage'>
 
-<ImageRotator />
+  <div className='landingContainer'>
 
-
-      <div className='text-container'>
-
-      <div class="container">
-      <h1 class="typed">Discover a new way of working</h1>
-      </div>
-
-      <img src={landingPageGif} alt="Landing gif"
-                       className='landinggif' />
-
-        <h2 className='landingsecondh'>All the features work together so you can too.</h2>
-
-        <h2 className='landingfourthh'>
-          Bring the right people and information together in channels. Share ideas, make decisions and move work forward with a common purpose and place.
-        </h2>
-      </div>
+    <div className='image-container'>
+      <img src={landingPageGif} alt="Landing gif" className='landinggif' />
     </div>
+    <div className='text-container'>
+    <h1 class="typed">Discover a new way of working</h1>
+
+      <h2 className='landingfourthh'>
+        Bring the right people and information together in channels. Share ideas, make decisions and move work forward with a common purpose and place.
+      </h2>
+
+    </div>
+
   </div>
+
+</div>
+
+
+                    <div className='landingContainer2'>
+
+                    <div class="landingContainer2-content">
+                    <h1>Choose how you want to work </h1>
+
+                    <p>In Slacker, you will no longer be slacking!
+                        You can easily chat with all your friends and coworkers. You've got
+                        all the flexibility to work when, where and how it's best for you.</p>
+                </div>
+                <div className='landingContainer2-image'><ImageRotator /></div>
+                    </div>
+
 
                     <div className='social-footer'>
                         <div>
                             <div className='social-item'>
                                 <a href='https://github.com/ymao21' class="github-button" >
                                     <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt='github' />
-
                                 Yining Mao
                                 </a>
                             </div>
-
-
                         </div>
-
                     </div>
                 </>
             );

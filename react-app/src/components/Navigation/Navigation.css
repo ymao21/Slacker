@@ -1,7 +1,7 @@
+
 .profile-dropdown {
   position: absolute;
 }
-
 .hidden {
   display: none;
 }
@@ -9,19 +9,35 @@
   padding-left: 20px;
   padding-right: 20px;
   margin: 0;
-  background-color: #4361ee;
+  background-color: #001d3d;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 150px;
+  height: 80px;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  transition: height 2s ease;
+  position: fixed;
+  top: 1;
+  width: 96%;
+  z-index: 900;
 }
-
+.nav-container-scroll {
+  background-color: #0b1824;
+  width: 90%;
+  border-radius: 20px;
+  margin-left: 3%;
+  color: black;
+}
+.slackerName {
+  font-size: 40px;
+}
 .logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 150px;
-  width: 150px;
+  height: 70px;
+  width: 70px;
+  margin-right: 5px;
 }
 .navLogoName {
   display: flex;
@@ -30,12 +46,13 @@
   font-size: 4rem;
   font-family: "Gill Sans", sans-serif;
   color: #fff;
-
 }
 .navLogoName a {
   text-decoration: none;
   color: #fff;
 }
+
+
 .login-button{
   display: flex;
   flex-direction: row;
@@ -44,8 +61,6 @@
   height: 40px;
   width: 100px;
   border-radius: 5px;
-  /* background-color: #fff; */
-  /* color: #003566; */
   color: #fff;
   font-size: 1.5rem;
   font-family: "Roboto", sans-serif;
@@ -53,16 +68,9 @@
   user-select: none;
 }
 .login-button:hover{
-  /* background-color: #023e8a;
-  border: 1px solid #003566;
-  color: #ffffff; */
   text-decoration: underline;
 }
 .register-button:hover{
-  /* background-color: #023e8a;
-  border: 1px solid #003566;
-  color: #ffffff; */
-
   text-decoration: underline;
 }
 .register-button{
@@ -73,9 +81,7 @@
   height: 40px;
   width: 120px;
   border-radius: 5px;
-  /* background-color: #003566; */
   color: #fff;
-  /* border:2px solid #fff; */
   font-size: 1.5rem;
   font-family: "Roboto", sans-serif;
   cursor: pointer;
@@ -91,7 +97,6 @@
   border-radius: 5px;
   background-color: #003566;
   color: #fff;
-  /* border:2px solid #fff; */
   font-size: 1.5rem;
   font-family: "Roboto", sans-serif;
   cursor: pointer;
@@ -99,7 +104,6 @@
 }
 .demo-user-button:hover{
   background-color: rgb(1, 42, 94);
-  /* border: 1px solid #003566; */
   color: #ffffff;
 }
 .login-menu{
@@ -116,7 +120,7 @@
 }
 .login-modal{
   position: absolute;
-  top:0;
+  top:-100px;
   left:0;
   display: flex;
   flex-direction: column;
@@ -124,8 +128,6 @@
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  z-index: 100;
-  overflow: hidden;
 }
 .login-modal-pop-down{
   position: absolute;
@@ -143,9 +145,7 @@
   height: fit-content;
   z-index: 100;
   filter:drop-shadow(0px 20px 10px #00000077);
-  /* set animation pop-down 0.2s with a bounce */
   animation: pop-down 0.4s cubic-bezier(0.215, 0.610, 0.355, 1.000)
-  /* ,0.6s bounce 0.22s cubic-bezier(0.215, 0.610, 0.355, 1.000); */
 }
 .login-modal-x-button{
   position: absolute;

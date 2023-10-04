@@ -1,8 +1,7 @@
 import "./DmsModal.css"
 import React from "react";
 import { useState } from 'react';
-import DmsDetail from "../DmsDetail/DmsDetail";
-import EditDmsForm from "../DmsForm/EditDmsForm";
+
 
 
 function DmsModal({ setOpenModal }) {
@@ -22,7 +21,7 @@ function DmsModal({ setOpenModal }) {
           </div>
 
           <div className="body">
-            <DmsDetail/>
+            {/* <DmsDetail/> */}
           </div>
           <div className="DmsModal">
             <button
@@ -43,7 +42,7 @@ function DmsModal({ setOpenModal }) {
              {show &&
 
              <div className="EditDmsForm">
-              < EditDmsForm/>
+              {/* < EditDmsForm/> */}
               </div>
               }
 

@@ -15,19 +15,25 @@
     display: flex;
     text-decoration: none;
     padding: 5px;
-    color: #828184;
+    color: #a3a3a6;
+    font-weight: 400;
+    font-family: Lato;
+    position: relative;
 }
 
-
 .deleteChannelbtn{
-    color: rgb(128, 0, 0);
+   background-color: red;
 }
 
 .channelLinkexpandBtn{
     background-color: #261f12;
     color: #828184;
     border: none;
-    margin: 5px;
+    /* margin: 2px; */
+    margin-left: 5px;
+    border-radius: 50px;
+    width: 30px;
+    padding-bottom: 8px;
 }
 
 .deleteChannelbtn{
@@ -35,5 +41,14 @@
     background-color: #261f12;
     color: #828184;
     border: none;
-    margin: 5px;
+    /* margin: 5px; */
+    display: none;
+    position: absolute;
+    padding: 2px 5px;
+    cursor: pointer;
+    margin-left: 150px;
+}
+
+.channelLink:hover .deleteChannelbtn {
+    display: inline-block;
 }

@@ -3,24 +3,18 @@
 
 .ChannelmodalContainer{
   position:absolute;
-  background-color: #0e0e0e;
+  background-color: #1A1D21;
+    border: 1px solid #d1d2d330;
   border-radius: 25px;
   padding: 20px;
   opacity: 0.9;
-
+  width: 270px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
-.editchannelform{
-  /* position:relative;
-  left:150px;
-  top: 60px; */
-}
-
-
-.channeldetailclosebtn{
-  /* padding: 5px */
-}
 
 .editChannelExpand{
   padding: 7x;
@@ -42,6 +36,7 @@
     border: none;
     margin: 5px;
     padding: 5px;
+    background-color: #D1D2D3;
 }
 
 .EditChannelType{
@@ -81,12 +76,7 @@
 }
 
 .channelXbttn{
-  padding: 15x;
-  width: 15px;
-  background-color: #261f12;
-  color: #828184;
-  border: none;
-  margin: 7px;
+  display: none;
 }
 
 .channelXbttn:hover{
