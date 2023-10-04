@@ -16,11 +16,31 @@ function Landing() {
 
                     {redirect && <Redirect to="/chat" />}
 
-    
+
                     <div className='landing-demo-room-container'>
-                    <h1>Welcome Back</h1>
+
                             <div className='landing-demo-room-enter-button' onClick={() => setRedirect(true)}>Launch Demo Server</div>
                     </div>
+
+                    <div className='landingpage'>
+
+  <div className='landingContainer'>
+
+    <div className='image-container'>
+      <img src={landingPageGif} alt="Landing gif" className='landinggif' />
+    </div>
+    <div className='text-container'>
+    <h1 class="typed">Discover a new way of working</h1>
+
+      <h2 className='landingfourthh'>
+        Bring the right people and information together in channels. Share ideas, make decisions and move work forward with a common purpose and place.
+      </h2>
+
+    </div>
+
+  </div>
+
+</div>
 
 </>
 );
