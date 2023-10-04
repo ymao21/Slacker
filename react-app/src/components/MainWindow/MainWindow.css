@@ -475,7 +475,7 @@
   margin: 0;
   padding:0;
   padding-bottom: 20px;
-  width: 50vw;
+  width: 52vw;
   height: fit-content;
   max-height: 45vh;
   overflow-y: auto;
@@ -559,6 +559,8 @@
 }
 .search-modal-result-button{
   cursor: pointer;
+  position: relative;
+  left: -20px;
 }
 .search-modal-result:hover{
   background-color: #d1d2d310;
@@ -647,8 +649,8 @@
   top: calc(5vw / 2);
   left: 0;
   transform: translateX(50%);
-  width: 50vw;
-  height: 50vh;
+  width: 55vw;
+  height: 60vh;
   background-color: #1A1D21;
   z-index: 100;
   display: flex;
@@ -663,6 +665,8 @@
 }
 .group-DM-modal-header{
   color:#D1D2D3;
+  position:relative;
+  left: 30px;
 }
 .group-DM-modal-x-button{
   position: absolute;
@@ -684,7 +688,8 @@
 .group-dm-results{
   top:110px;
   left:30px;
-  width:25vw;
+  width:30vw;
+  overflow-x:hidden
 }
 .dm-selected-users{
   position: relative;
@@ -702,6 +707,7 @@
 .selected-users-text{
   position: relative;
   top:100px;
+  left: 30px;
 }
 .group-DM-modal-buttons{
   position: absolute;

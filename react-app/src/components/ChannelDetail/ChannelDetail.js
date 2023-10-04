@@ -21,9 +21,9 @@ const ChannelDetail = () => {
         <div className= 'channelDetails'>
          {(channelInfo) && (
             <div>
-              Name: {channelInfo.name}
+              Channel Name: {channelInfo.name}
               <br/>
-              Created By: {channelInfo.createdby}
+              {/* Created By: {channelInfo.createdby} */}
               <br/>
              </div>
          )}

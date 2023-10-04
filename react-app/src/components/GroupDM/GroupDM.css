@@ -45,7 +45,7 @@
 }
 .group-DM-list-item{
     margin-top:10px;
-    margin-left:35px;
+    margin-left:25px;
     display: flex;
     font-size: 1.1rem;
     flex-direction: row;
@@ -96,4 +96,3 @@
     font-size: 1.3rem;
     font-family: Verdana, sans-serif;
 }
-

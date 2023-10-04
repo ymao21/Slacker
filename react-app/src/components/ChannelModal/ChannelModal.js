@@ -16,7 +16,7 @@ function Modal({ setOpenModal }) {
               setOpenModal(false);
             }}
           >
-            x
+            
           </button>
         </div>
 

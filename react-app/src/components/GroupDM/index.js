@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlay, faPlusSquare, faMessage } from '@fortawesome/free-solid-svg-icons'
+import { faPlay, faPlusSquare } from '@fortawesome/free-solid-svg-icons'
 import './GroupDM.css';
 import { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';

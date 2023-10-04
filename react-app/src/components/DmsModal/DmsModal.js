@@ -1,8 +1,7 @@
 import "./DmsModal.css"
 import React from "react";
 import { useState } from 'react';
-import DmsDetail from "../DmsDetail/DmsDetail";
-import EditDmsForm from "../DmsForm/EditDmsForm";
+
 
 
 function DmsModal({ setOpenModal }) {
