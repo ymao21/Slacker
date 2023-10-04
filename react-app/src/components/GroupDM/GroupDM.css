@@ -58,6 +58,7 @@
     color: #a3a3a6;
     font-weight: 400;
     font-family: Lato;
+
 }
 .group-DM-list-item:hover{
     cursor: pointer;
@@ -95,3 +96,4 @@
     font-size: 1.3rem;
     font-family: Verdana, sans-serif;
 }
+

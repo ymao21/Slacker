@@ -14,7 +14,6 @@ const ChannelBrowser = () => {
   }
   const channelsobj = useSelector(state => state.channels)
   const channelsArr = Object.values(channelsobj)
-  // const [modalOpen, setModalOpen] = useState(false);
 
   const RoomtypeChannel = []
 
@@ -40,6 +39,7 @@ const ChannelBrowser = () => {
   return sessionUser.id ? (
     <div>
       {channelsobj &&
+
         <main className='ChannelListContainer'>
           <div className='eachChannel'>
             {RoomtypeChannel.map((channel) => (
@@ -47,17 +47,8 @@ const ChannelBrowser = () => {
               <Link className='channelLink' key={channel.id} to={`/chat/${channel.id}`} onClick={() => changeRoomHandler(channel)}>
                 # {channel.name}
 
-                <button className="channelLinkexpandBtn" onClick={() => setShow(!show)}>
-                  {show ? '...' : '...'}
-                </button>
-                {show && <hr />}
-                {show &&
                   <button className='deleteChannelbtn' id={channel.id} onClick={(e) => deleteHandler(e.target.id)}>Leave</button>
-                  }
-
               </Link>
-
-
             ))}
 
 

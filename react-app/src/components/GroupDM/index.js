@@ -39,13 +39,13 @@ function GroupDM() {
         let joiner = " ";
         if (newName.length === 1) {
             joiner = ",";
-            newName = name.split(',');
+            newName = name.split(', ');
         }
         newName = newName.filter((name) => name !== user.username);
         return newName.join(joiner);
     }
     const getNumber = (name) => {
-        let count = name.split(',');
+        let count = name.split(', ');
 
         return count.length - 1;
     }
@@ -115,7 +115,6 @@ function GroupDM() {
                         return (
 
                             <div className='group-DM-list-item' key={group.id} onClick={() => dispatch(changeRoom(group))}>
-                                {/* <FontAwesomeIcon icon={faMessage} className='group-DM-list-item-icon' /> */}
 
                                 {group.type === 1 &&
                                     <>{generateIcon(group.user)}
@@ -124,8 +123,6 @@ function GroupDM() {
                                 }
                                 {group.type === 2 &&
                                     <>
-                                    {/* <img src={defaultIcon} className='group-DM-list-item-icon' /> */}
-                                        {/* <div className='group-DM-number'>{getNumber(group.name)}</div> */}
                                         <div className='group-DM-list-item-name left-10'>{trimName(removeOurName(group.name))}</div>
                                     </>
                                 }
