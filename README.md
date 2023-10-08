@@ -14,6 +14,13 @@ Slacker is a Python and React project meant to emulate the core functionality of
 After a successful build the application can then be ran using Gunicorn
 
     gunicorn --worker-class eventlet -w 1 --bind 0.0.0.0:5000 app:app
+
+Make sure to run the command using a virtual environment by running
+
+    pipenv shell
+
+If the port is occupied run lsof -i:5000 (5000 is the port number) to check what is occupying the port, then using sudo kill -9 PID number to clear port
+
 To remove all messages, channels, DMS and reset back to the initial DB state run:
 
     flask seed undo
