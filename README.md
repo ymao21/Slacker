@@ -1,5 +1,5 @@
 
-Slacker is a full-stack project using Python for its backend and React for its frontend.  It is meant to emulate the core functionality of the popular messaging app Slack. Slacker allows users to create channels and start group chats related to a specific topic. Users can send messages to all other members on the platform and customize their messages with different styles and emojis. Users can either directly message one other members or create a group chat with more than one member. 
+Slacker is a full-stack project using Python for its backend and React for its front end.  It is meant to emulate the core functionality of the popular messaging app Slack. Slacker allows users to create channels and start group chats related to a specific topic. Users can send messages to all other members on the platform and customize their messages with different styles and emojis. Users can either directly message one other member or create a group chat with more than one member. 
 
 ### Technologies Used
 -React
@@ -22,7 +22,7 @@ Slacker is a full-stack project using Python for its backend and React for its f
     npm install --prefix react-app 
     npm run build --prefix react-app
 
-After a successful build the application can then be ran using Gunicorn
+After a successful build the application can then be run using Gunicorn
 
     gunicorn --worker-class eventlet -w 1 --bind 0.0.0.0:5000 app:app
 
@@ -38,7 +38,7 @@ If the port is occupied run
     
     lsof -i:5000 
 
-(5000 is the port number) to check what is occupying the port, then using the below command to clear port
+(5000 is the port number) to check what is occupying the port, use the below command to clear the port
 
     sudo kill -9 (PID number) 
 
@@ -59,6 +59,16 @@ The Splash Page will display general information, images, and gifs. The Navigati
 ![Screen Shot 2023-10-10 at 1 51 19 PM](https://github.com/ymao21/Slacker/assets/103905774/4b46b391-0c0a-49d8-8295-17e738f69506)
 
 Users will be able to see a button to launch the Demo server
+
+### Server Overview 
+<img width="1183" alt="Screen Shot 2023-10-10 at 2 38 23 PM" src="https://github.com/ymao21/Slacker/assets/103905774/de079ee6-b7b6-4be7-811a-a90cef64d9b5">
+
+### Channel 
+
+Users can view, create, delete, and edit the channels displayed on the sidebar. As the user hovers over the channel names, the user has the option to leave the channels. As the user clicks on the Create channel button, a modal pops up allowing the user to add a new channel.  
+
+<img width="239" alt="Screen Shot 2023-10-10 at 2 39 44 PM" src="https://github.com/ymao21/Slacker/assets/103905774/8f98d1ba-9b09-4654-a58e-956003cd572b">
+<img width="930" alt="Screen Shot 2023-10-10 at 2 40 50 PM" src="https://github.com/ymao21/Slacker/assets/103905774/2456dbda-c75a-41ac-b3ae-905a292d3eb2">
 
 ### Chat
 Users can edit and customize their messages to any channels or direct messages. They can also add emojis to go with their message before sending it
