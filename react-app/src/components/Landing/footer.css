@@ -1,0 +1,57 @@
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: start;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-family: "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+
+  }
+
+  .footer-column {
+    margin-right: 150px;
+    text-align: center;
+
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    margin-top: 0;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  ul li {
+    margin-bottom: 10px;
+  }
+
+  ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+
+  .slick-logo {
+    width: 60px;
+    position: relative;
+    left: -40%;
+  }
+
+  .wavybox {
+    --size: 50px;
+    --p: 25px;
+    --R: 55.9px;
+    color: white;
+    height: 250px;
+
+
+    -webkit-mask:
+      radial-gradient(var(--R) at 50% calc(100% - (var(--size) + var(--p))),blue 99%,#0000 101%) calc(50% - 2*var(--size)) 0/calc(4*var(--size)) 100%,
+      radial-gradient(var(--R) at 50% calc(100% + var(--p)),#0000 99%,red 101%) 50% calc(100% - var(--size))/calc(4*var(--size)) 100% repeat-x;
+    background:linear-gradient(190deg,#001d3d,#001d3d);
+    border: none;
+  }

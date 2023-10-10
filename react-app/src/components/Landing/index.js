@@ -4,6 +4,7 @@ import { useState } from 'react';
 import './Landing.css';
 import ImageRotator from './imageRotater';
 import landingPageGif from '../../assets/landingPage.gif';
+import Footer from './footer';
 
 function Landing() {
     const user = useSelector(state => state.session.user);
@@ -83,7 +84,7 @@ if (!user)
                     </div>
 
 
-                    <div className='social-footer'>
+                    {/* <div className='social-footer'>
                         <div>
                             <div className='social-item'>
                                 <a href='https://github.com/ymao21' class="github-button" >
@@ -92,7 +93,10 @@ if (!user)
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
+
+
+                    <Footer/>
                 </>
             );
     }
