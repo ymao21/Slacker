@@ -38,6 +38,9 @@ function Navigation({ isLoaded }) {
         </NavLink>
       </div>
 
+
+
+
       {isLoaded && (
         <>
           {sessionUser ? (
@@ -51,6 +54,10 @@ function Navigation({ isLoaded }) {
             </div>
           ) : (
             <>
+{/*
+             <div className="socials"><a href="https://github.com/ymao21" target="_blank">LinkedIn</a></div>
+             <div className="socials"><a href="https://github.com/ymao21" target="_blank">Github</a></div> */}
+
               <div className="login-menu">
                 <div
                   className="login-button"
@@ -65,6 +72,7 @@ function Navigation({ isLoaded }) {
                 >
                   Register
                 </div>
+
                 <div
                   className="demo-user-button"
                   onClick={() => setModalState("Demo")}

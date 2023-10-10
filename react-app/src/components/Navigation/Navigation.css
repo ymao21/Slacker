@@ -328,3 +328,22 @@
   height: fit-content;
   gap: 10px;
 }
+
+/* 
+.socials{
+
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 120px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  user-select: none;
+}
+.socials:hover{
+  text-decoration: underline;
+  color: #fff;
+} */

@@ -24,9 +24,14 @@ const CreateChannelForm = () => {
     };
 
     const data = await dispatch(createChannel(payload));
-    if (data) setErrors(data.errors);
+    if (data) {
+      setErrors(data.errors);
 
-    console.log("CHANNELS DATA", data);
+    }
+    if(!data.erros){
+      setShowModal(!showModal)
+    }
+
   };
 
   const toggleModal = () => {
@@ -37,14 +42,15 @@ const CreateChannelForm = () => {
     <>
       <div>
         <button className="ExpandChannelsBtn" onClick={toggleModal}>
-          {showModal ? 'Close' : 'Create a New Channel'}
+          {showModal ? 'Close' : 'Create New Channel'}
         </button>
         {showModal && (
           <div className="Channelmodal">
             <button className="closeButton" onClick={toggleModal}>
               X
             </button>
-            <form className="createChannel" onSubmit={handleSubmit}>
+            <form className="createChannel" onSubmit={handleSubmit} >
+
               <div className="CreateChannelError">
                 {error &&
                   error.map((error, i) => {
