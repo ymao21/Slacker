@@ -49,10 +49,12 @@ To remove all messages, channels, DMS and reset back to the initial DB state run
 ---
 ### Splash Page
 
-# When logged Out
+# When Logged Out
 ![splash](https://github.com/ymao21/Slacker/assets/103905774/ba0aa78d-b9fe-4b7f-a8dd-6bc1b9fbd877)
 
+# When Logged In
 
+![Screen Shot 2023-10-10 at 1 51 19 PM](https://github.com/ymao21/Slacker/assets/103905774/4b46b391-0c0a-49d8-8295-17e738f69506)
 
 
 ### Feature List
