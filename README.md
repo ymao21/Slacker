@@ -78,6 +78,13 @@ Users can edit or delete their messages after sending them to any channel or thr
 
 ![sentMessage](https://github.com/ymao21/Slacker/assets/103905774/746ff246-b2ef-466a-b0d7-561018947fcb)
 
+### Direct Messages/Group Messages
+Users can select the other users that they want to start a direct message/group message with. If the user already started a chat with certain members, an error message will pop up to indicate the group already exists. The chat main window will also indicate how many members are in the group chat. The Direct messages/Group messages list is expandable
+
+![Screen Shot 2023-10-10 at 2 50 59 PM](https://github.com/ymao21/Slacker/assets/103905774/b610da58-7165-4c75-a88e-d97fd62b5761)
+![Screen Shot 2023-10-10 at 2 48 33 PM](https://github.com/ymao21/Slacker/assets/103905774/a66e0712-5c47-4558-acb5-db37ebefc12d)
+![Screen Shot 2023-10-10 at 2 47 35 PM](https://github.com/ymao21/Slacker/assets/103905774/27e86226-0adc-4110-913a-386f1ba497e6)
+
 
 ### Feature List
 
