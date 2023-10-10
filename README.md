@@ -61,7 +61,8 @@ The Splash Page will display general information, images, and gifs. The Navigati
 Users will be able to see a button to launch the Demo server
 
 ### Chat
-![message](https://github.com/ymao21/Slacker/assets/103905774/e65a8872-810f-4f5a-ab8f-07c49527ead5)
+Users can edit and customize their messages to any channels or direct messages. They can also add emojis to go with their message before sending it
+![chatbox](https://github.com/ymao21/Slacker/assets/103905774/3f6f0e3f-8b3a-4aa6-b2a2-f5719d784852)
 
 
 
