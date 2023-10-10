@@ -84,16 +84,6 @@ if (!user)
                     </div>
 
 
-                    {/* <div className='social-footer'>
-                        <div>
-                            <div className='social-item'>
-                                <a href='https://github.com/ymao21' class="github-button" >
-                                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt='github' />
-                                Yining Mao
-                                </a>
-                            </div>
-                        </div>
-                    </div> */}
 
 
                     <Footer/>
