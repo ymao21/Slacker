@@ -1,5 +1,16 @@
 
-Slacker is a Python and React project meant to emulate the core functionality of the popular messaging app Slack 
+Slacker is a full-stack project using Python for its backend and React for its frontend.  It is meant to emulate the core functionality of the popular messaging app Slack. Slacker allows users to create channels and start group chats related to a specific topic. Users can send messages to all other members on the platform and customize their messages with different styles and emojis. Users can either directly message one other members or create a group chat with more than one member. 
+
+### Technologies Used
+-React
+-Redux
+-JavaScript
+-HTML/CSS
+-Python
+-PostgreSQL
+-Flask
+-Socket.io
+-Render
 
 ### Building The Application
 
