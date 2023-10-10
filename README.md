@@ -52,7 +52,7 @@ To remove all messages, channels, DMS and reset back to the initial DB state run
 ### When Logged Out
 ![splash](https://github.com/ymao21/Slacker/assets/103905774/ba0aa78d-b9fe-4b7f-a8dd-6bc1b9fbd877)
 
-The Splash Page will display general information, images, and gifs. The Navigation bar shows where the user can log-in, register or log-in as a demo user
+The Splash Page will display general information, images, and gifs. The Navigation bar shows where the user can log in, register, or log in as a demo user
 
 ### When Logged In
 
@@ -64,6 +64,9 @@ Users will be able to see a button to launch the Demo server
 Users can edit and customize their messages to any channels or direct messages. They can also add emojis to go with their message before sending it
 ![chatbox](https://github.com/ymao21/Slacker/assets/103905774/3f6f0e3f-8b3a-4aa6-b2a2-f5719d784852)
 
+Users can edit or delete their messages after sending them to any channel or through direct messages. After deleting a message, the message box will be grayed out and the original message will be shown as "message deleted". The message is also labeled with the current timestamp. Users can also view/edit the current channel name if they wish. 
+
+![sentMessage](https://github.com/ymao21/Slacker/assets/103905774/746ff246-b2ef-466a-b0d7-561018947fcb)
 
 
 ### Feature List
