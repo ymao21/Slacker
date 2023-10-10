@@ -47,6 +47,16 @@ To remove all messages, channels, DMS and reset back to the initial DB state run
     flask seed undo
 
 ---
+### Feature List
+
+ *Live chat
+ *Rich Text including Underline, Italics, Bold, and Lists
+ *User and Message Search
+ *User status updates
+ *Dynamic message loading
+ *Channel Browser
+ *Direct Messages
+   
 ### Splash Page
 
 ### When Logged Out
@@ -93,20 +103,16 @@ Users can select the other users that they want to start a direct message/group 
 User status can be updated depending on whether the user is busy, away, offline, or does not want to be disturbed. User can also add a message with their status
 ![status](https://github.com/ymao21/Slacker/assets/103905774/3d893fda-5b20-43f7-a944-4046b6ed61c4)
 
-### Feature List
+### Search
 
- - Live chat
- - Rich Text including Underline, Italics, Bold, and Lists
- - User and Message Search
- - User status updates
- - Dynamic message loading
- - Channel Browser
- - Direct Messages
+Users are able to search both for other users and messages from the navigation search bar. As a user types in the search bar, the user needs to indicate whether if they are searching for a user or a message. Then as the user types, the app will automatically filter and display query results from the backend. 
+![search](https://github.com/ymao21/Slacker/assets/103905774/5310cc6e-6997-4541-89d9-78b5229d6ea3)
+
 
 ### Database Design
 
 ![image](https://user-images.githubusercontent.com/4108484/232324020-3d717378-198d-49aa-ab59-6d9e2ed00909.png)
-The database is has a simple design putting all types of communication (Channels, DMs, Group DMs) into a single table 'Rooms', that relates to a constants table called 'Types' to determine what kind of room it is. This design allows for quickly adding and removing types for further changes and features.
+The database has a simple design putting all types of communication (Channels, DMs, Group DMs) into a single table 'Rooms', that relates to a constants table called 'Types' to determine what kind of room it is. This design allows for quickly adding and removing types for further changes and features.
 
 ### Crud Features
-The Slack-Clone project includes full CRUD features (which includes Create, Read, Update, Delete) for both the channels and the direct message portion of the page
+The Slack-Clone project includes full CRUD features (which include Create, Read, Update, Delete) for both the channels and the direct message portion of the page
