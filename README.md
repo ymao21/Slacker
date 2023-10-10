@@ -61,6 +61,8 @@ The Splash Page will display general information, images, and gifs. The Navigati
 Users will be able to see a button to launch the Demo server
 
 ### Server Overview 
+
+Slacker uses Websockets to facilitate the live chat function. The messages sent will immediately be displayed through all members/channels without refreshing the page. All messages are shared in real time
 <img width="1183" alt="Screen Shot 2023-10-10 at 2 38 23 PM" src="https://github.com/ymao21/Slacker/assets/103905774/de079ee6-b7b6-4be7-811a-a90cef64d9b5">
 
 ### Channel 
