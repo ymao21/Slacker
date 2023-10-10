@@ -89,6 +89,9 @@ Users can select the other users that they want to start a direct message/group 
 <br />
 ![Screen Shot 2023-10-10 at 2 47 35 PM](https://github.com/ymao21/Slacker/assets/103905774/27e86226-0adc-4110-913a-386f1ba497e6)
 
+### User
+User status can be updated depending on whether the user is busy, away, offline, or does not want to be disturbed. User can also add a message with their status
+![status](https://github.com/ymao21/Slacker/assets/103905774/3d893fda-5b20-43f7-a944-4046b6ed61c4)
 
 ### Feature List
 
