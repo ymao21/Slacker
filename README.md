@@ -120,7 +120,6 @@ Users are able to search both for other users and messages from the navigation s
 
 
 ### Database Design
-<br />
 ![image](https://user-images.githubusercontent.com/4108484/232324020-3d717378-198d-49aa-ab59-6d9e2ed00909.png) 
 <br />
 The database has a simple design putting all types of communication (Channels, DMs, Group DMs) into a single table 'Rooms', that relates to a constants table called 'Types' to determine what kind of room it is. This design allows for quickly adding and removing types for further changes and features.
