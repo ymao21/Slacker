@@ -22,7 +22,7 @@ Render,
     npm install --prefix react-app 
     npm run build --prefix react-app
 
-After a successful build the application can then be run using Gunicorn
+After a successful build, the application can then be run using Gunicorn
 
     gunicorn --worker-class eventlet -w 1 --bind 0.0.0.0:5000 app:app
 
@@ -60,9 +60,7 @@ To remove all messages, channels, DMS and reset back to the initial DB state run
 ### Splash Page
 
 ### When Logged Out
-<br />
 ![splash](https://github.com/ymao21/Slacker/assets/103905774/ba0aa78d-b9fe-4b7f-a8dd-6bc1b9fbd877)
-<br />
 The Splash Page will display general information, images, and gifs. The Navigation bar shows where the user can log in, register, or log in as a demo user
 
 ### When Logged In
